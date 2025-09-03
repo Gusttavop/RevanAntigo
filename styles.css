@@ -1,0 +1,106 @@
+/* Fonte principal */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+
+:root {
+    --primary: #3b82f6;
+    --primary-light: #dbeafe;
+    --success: #10b981;
+    --danger: #ef4444;
+    --secondary: #6b7280;
+    --white: #fff;
+    --dark: #1e293b;
+    --border-radius: 12px;
+    --transition: all 0.3s ease;
+}
+
+/* Botão Flutuante */
+.ua-floating-btn {
+    position: fixed;
+    top: 96px;
+    right: 24px;
+    width: 56px;
+    height: 56px;
+    background: var(--primary);
+    color: var(--white);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    z-index: 9999;
+    transition: var(--transition);
+}
+
+.ua-floating-btn:hover {
+    transform: scale(1.1);
+}
+
+/* Overlay */
+.ua-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(15,23,42,0.7);
+    backdrop-filter: blur(6px);
+    z-index: 9998;
+    opacity: 0;
+    pointer-events: none;
+    transition: var(--transition);
+}
+
+.ua-overlay.active {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+/* Sidebar lateral */
+.ua-sidebar {
+    position: fixed;
+    top: 0;
+    right: -400px;
+    width: 400px;
+    height: 100%;
+    background: var(--primary-light);
+    box-shadow: -4px 0 8px rgba(0,0,0,0.2);
+    transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    z-index: 9999;
+    overflow-y: auto;
+}
+
+.ua-sidebar.active {
+    right: 0;
+}
+
+/* Header da sidebar */
+.ua-sidebar h2 {
+    margin: 0 0 16px 0;
+    font-family: 'Inter', sans-serif;
+    color: var(--dark);
+    font-size: 1.5rem;
+}
+
+/* Botões e inputs dentro da sidebar */
+.ua-sidebar button,
+.ua-sidebar input {
+    margin-bottom: 12px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid rgba(0,0,0,0.1);
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+    .ua-sidebar {
+        width: 90%;
+    }
+}

@@ -104,3 +104,17 @@
         width: 90%;
     }
 }
+
+const btn = document.querySelector('.ua-floating-btn');
+const sidebar = document.querySelector('.ua-sidebar');
+const overlay = document.querySelector('.ua-overlay');
+
+btn.addEventListener('click', () => {
+    sidebar.classList.toggle('active');
+    overlay.classList.toggle('active');
+});
+
+overlay.addEventListener('click', () => {
+    sidebar.classList.remove('active');
+    overlay.classList.remove('active');
+});

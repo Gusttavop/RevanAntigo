@@ -1007,7 +1007,7 @@
     "aguardar": false,
     "etiqueta": "Suspeita de LOS",
     "etiqueta_externo": "Suspeita de LOS (reparo físico)",
-    "servico": "reparo físico",
+    "servico": "",
     "infra": "Geral",
     "prioridade": 1
   }

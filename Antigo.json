@@ -7,7 +7,8 @@
     "etiqueta": "Lentidão - FTTH",
     "etiqueta_externo": "",
     "servico": "",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Lentidão FTTH - Externo",
@@ -17,7 +18,8 @@
     "etiqueta": "Lentidão - FTTH",
     "etiqueta_externo": "Lentidão",
     "servico": "Reparo Rápido",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 2
   },
   {
     "titulo": "Lentidão FTTH - Ficou testando",
@@ -27,7 +29,8 @@
     "etiqueta": "Lentidão - FTTH",
     "etiqueta_externo": "",
     "servico": "",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Lentidão FTTH- Recorrente",
@@ -37,7 +40,8 @@
     "etiqueta": "Lentidão - FTTH",
     "etiqueta_externo": "Lentidão",
     "servico": "Reparo Rápido",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 2
   },
   {
     "titulo": "Quedas de conexão FTTH - Resolvido",
@@ -47,7 +51,8 @@
     "etiqueta": "Quedas na conexão - FTTH",
     "etiqueta_externo": "",
     "servico": "",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Quedas de conexão FTTH - Externo",
@@ -57,7 +62,8 @@
     "etiqueta": "Quedas na conexão - FTTH",
     "etiqueta_externo": "Lentidão",
     "servico": "Reparo Rápido",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 2
   },
   {
     "titulo": "Quedas de conexão FTTH - Ficou testando",
@@ -67,7 +73,8 @@
     "etiqueta": "Quedas na conexão - FTTH",
     "etiqueta_externo": "",
     "servico": "",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Quedas de conexão FTTH - Recorrente",
@@ -77,7 +84,8 @@
     "etiqueta": "Quedas na conexão - FTTH",
     "etiqueta_externo": "Lentidão",
     "servico": "Reparo Rápido",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 2
   },
   {
     "titulo": "Sem gerência - Resolvido",
@@ -87,7 +95,8 @@
     "etiqueta": "Sem acesso TP-LINK",
     "etiqueta_externo": "",
     "servico": "",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Sem gerência - Externo",
@@ -97,7 +106,8 @@
     "etiqueta": "Sem acesso TP-LINK",
     "etiqueta_externo": "Sem acesso TP-LINK",
     "servico": "Reparo Rápido",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Sem conexão - Resolvido",
@@ -107,7 +117,8 @@
     "etiqueta": "Sem acesso",
     "etiqueta_externo": "",
     "servico": "",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Sem conexão - Externo",
@@ -117,7 +128,8 @@
     "etiqueta": "Sem acesso",
     "etiqueta_externo": "Sem acesso",
     "servico": "Reparo Rápido",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Senha incorreta",
@@ -127,7 +139,8 @@
     "etiqueta": "Sem acesso",
     "etiqueta_externo": "",
     "servico": "",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Sinal irregular - Externo",
@@ -137,7 +150,8 @@
     "etiqueta": "Sinal da fibra do cliente irregular - FTTH",
     "etiqueta_externo": "Sinal Irregular Fibra",
     "servico": "Reparo Físico",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Rota com sinal irregular",
@@ -147,7 +161,8 @@
     "etiqueta": "Rota com sinal irregular - FTTH",
     "etiqueta_externo": "",
     "servico": "",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Rede sumiu - Resolvido",
@@ -157,7 +172,8 @@
     "etiqueta": "Sem acesso",
     "etiqueta_externo": "",
     "servico": "",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Rede sumiu - Externo",
@@ -167,7 +183,8 @@
     "etiqueta": "Sem acesso",
     "etiqueta_externo": "Sem acesso",
     "servico": "Reparo Rápido",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Ping alto em jogos na rede cabeada - Resolvido",
@@ -177,7 +194,8 @@
     "etiqueta": "Ping alto",
     "etiqueta_externo": "",
     "servico": "",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Ping alto em jogos na rede cabeada - externo",
@@ -187,7 +205,8 @@
     "etiqueta": "Ping alto",
     "etiqueta_externo": "Perda de pacotes",
     "servico": "Reparo Rápido",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "ping alto em jogos na rede cabeada - Ficou testando",
@@ -197,7 +216,8 @@
     "etiqueta": "Ping alto",
     "etiqueta_externo": "",
     "servico": "",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Ping alto em jogos na rede cabeada - Recorrente",
@@ -207,7 +227,8 @@
     "etiqueta": "Ping alto",
     "etiqueta_externo": "Perda de pacotes",
     "servico": "Reparo Rápido",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Ping alto em jogos na rede cabeada - Remoto",
@@ -217,7 +238,8 @@
     "etiqueta": "Ping alto",
     "etiqueta_externo": "",
     "servico": "",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Alteração de senha aleatória - Resolvido",
@@ -227,7 +249,8 @@
     "etiqueta": "Alteração de Senha do WIFI",
     "etiqueta_externo": "",
     "servico": "",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Alteração de senha personalizada - Resolvido",
@@ -237,7 +260,8 @@
     "etiqueta": "Alteração de Senha do WIFI",
     "etiqueta_externo": "",
     "servico": "",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Alteração de senha - Inativo",
@@ -247,7 +271,8 @@
     "etiqueta": "Desconexão chat",
     "etiqueta_externo": "",
     "servico": "",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Plano no cabo - Resolvido",
@@ -257,7 +282,8 @@
     "etiqueta": "Plano não chega o contratado - FTTH",
     "etiqueta_externo": "",
     "servico": "",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Plano no cabo - Externo",
@@ -267,7 +293,8 @@
     "etiqueta": "Plano não chega o contratado - FTTH",
     "etiqueta_externo": "Plano não chega o contratado",
     "servico": "Reparo Rápido",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Plano no cabo - Ficou testando",
@@ -277,7 +304,8 @@
     "etiqueta": "Plano não chega o contratado - FTTH",
     "etiqueta_externo": "",
     "servico": "",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Cabo de rede CAT5",
@@ -287,7 +315,8 @@
     "etiqueta": "Plano não chega o contratado - FTTH",
     "etiqueta_externo": "",
     "servico": "",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Placa de rede FE",
@@ -297,7 +326,8 @@
     "etiqueta": "Plano não chega o contratado - FTTH",
     "etiqueta_externo": "",
     "servico": "",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Externo para confirmar entrega do plano",
@@ -307,7 +337,8 @@
     "etiqueta": "Plano não chega o contratado - FTTH",
     "etiqueta_externo": "Plano não chega o contratado",
     "servico": "Reparo Rápido",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Plano no wi-fi - Resolvido",
@@ -317,7 +348,8 @@
     "etiqueta": "Plano não chega o contratado - FTTH",
     "etiqueta_externo": "",
     "servico": "",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Plano no wi-fi - Externo",
@@ -327,7 +359,8 @@
     "etiqueta": "Plano não chega o contratado - FTTH",
     "etiqueta_externo": "Plano não chega o contratado",
     "servico": "Reparo Rápido",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Plano no wi-fi - Ficou testando",
@@ -337,7 +370,8 @@
     "etiqueta": "Plano não chega o contratado - FTTH",
     "etiqueta_externo": "",
     "servico": "",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Suspeita de LOS",
@@ -347,7 +381,8 @@
     "etiqueta": "Suspeita de LOS",
     "etiqueta_externo": "Suspeita de  LOS",
     "servico": "Reparo Físico",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Suspeita de LOS com valor",
@@ -357,7 +392,8 @@
     "etiqueta": "Suspeita de LOS",
     "etiqueta_externo": "Suspeita de  LOS",
     "servico": "Reparo Físico",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 2
   },
   {
     "titulo": "Rota inoperante",
@@ -367,7 +403,8 @@
     "etiqueta": "Rota Inoperante - FTTH",
     "etiqueta_externo": "",
     "servico": "",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Desconto de sem acesso",
@@ -377,7 +414,8 @@
     "etiqueta": "Solicitação de dados",
     "etiqueta_externo": "",
     "servico": "",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "OLT em manutenção",
@@ -387,7 +425,8 @@
     "etiqueta": "Problema na OLT",
     "etiqueta_externo": "",
     "servico": "",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "PON piscando - Resolvido",
@@ -397,7 +436,8 @@
     "etiqueta": "Pon piscando - FTTH",
     "etiqueta_externo": "",
     "servico": "",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "PON piscando - Externo",
@@ -407,7 +447,8 @@
     "etiqueta": "Pon piscando - FTTH",
     "etiqueta_externo": "PON Piscando",
     "servico": "Reparo Físico",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "PON piscando - GPON",
@@ -417,7 +458,8 @@
     "etiqueta": "Pon piscando - FTTH",
     "etiqueta_externo": "",
     "servico": "",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "PON apagada - Resolvido",
@@ -427,7 +469,8 @@
     "etiqueta": "Pon apagada - FTTH",
     "etiqueta_externo": "",
     "servico": "",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "PON apagada - Externo",
@@ -437,7 +480,8 @@
     "etiqueta": "Pon apagada - FTTH",
     "etiqueta_externo": "Pon apagada",
     "servico": "Reparo Rápido",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Fibra rompida",
@@ -447,7 +491,8 @@
     "etiqueta": "Cabo da Fibra Rompido",
     "etiqueta_externo": "Cabo da Fibra Rompido",
     "servico": "Reparo Físico",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Fibra rompida com valor",
@@ -457,7 +502,8 @@
     "etiqueta": "Cabo da Fibra Rompido",
     "etiqueta_externo": "Cabo da Fibra Rompido",
     "servico": "Reparo Físico",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 2
   },
   {
     "titulo": "Cabo de fibra baixo",
@@ -467,7 +513,8 @@
     "etiqueta": "Cabo de fibra baixo/remanejamento - FTTH",
     "etiqueta_externo": "Cabo de Fibra Baixo/Remanejamento",
     "servico": "Serviço Adicional",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Cabo de fibra baixo com valor",
@@ -477,7 +524,8 @@
     "etiqueta": "Cabo de fibra baixo/remanejamento - FTTH",
     "etiqueta_externo": "Cabo de Fibra Baixo/Remanejamento",
     "servico": "Serviço Adicional",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 2
   },
   {
     "titulo": "Cabo de fibra ressecado",
@@ -487,7 +535,8 @@
     "etiqueta": "Troca de Cabo Fibra - FTTH",
     "etiqueta_externo": "Cabo da Fibra Rompido",
     "servico": "Reparo Físico",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Remanejamento de cabo fibra",
@@ -497,7 +546,8 @@
     "etiqueta": "Cabo de fibra baixo/remanejamento - FTTH",
     "etiqueta_externo": "Cabo de Fibra Baixo/Remanejamento",
     "servico": "Serviço Adicional",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Remanejamento de cabo fibra com valor",
@@ -507,7 +557,8 @@
     "etiqueta": "Cabo de fibra baixo/remanejamento - FTTH",
     "etiqueta_externo": "Cabo de Fibra Baixo/Remanejamento",
     "servico": "Serviço Adicional",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 2
   },
   {
     "titulo": "Equipamento travado",
@@ -517,7 +568,8 @@
     "etiqueta": "Revisão de Equipamento",
     "etiqueta_externo": "Revisão de Equipamento",
     "servico": "Reparo Rápido",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Equipamento queimado",
@@ -527,7 +579,8 @@
     "etiqueta": "Revisão de Equipamento",
     "etiqueta_externo": "Revisão de Equipamento",
     "servico": "Reparo Rápido",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 2
   },
   {
     "titulo": "Instalação mal sucedida",
@@ -537,7 +590,8 @@
     "etiqueta": "Instalação mal sucedida (sem acesso) - 7d",
     "etiqueta_externo": "Instalação mal sucedida (sem acesso) - 7d",
     "servico": "Reparo Físico",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Torre Inoperante",
@@ -547,7 +601,8 @@
     "etiqueta": "Torre inoperante - FWA",
     "etiqueta_externo": "",
     "servico": "",
-    "infra": "FWA"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "Conectado na porta LAN incorreta - Resolvido",
@@ -557,366 +612,18 @@
     "etiqueta": "Sem acesso",
     "etiqueta_externo": "",
     "servico": "",
-    "infra": "FTTH"
+    "infra": "Geral",
+    "prioridade": 0
   },
   {
     "titulo": "OLT com quedas de energia",
-    "mensagem": "entrou em contato relatando estar sem acesso à internet após uma queda de energia. Cliente confirmou ser titular da conta e forneceu os dados solicitados. Foi informado que há uma interrupção no fornecimento de energia na central de distribuição em sua cidade, o que pode impactar toda a sua rota. Informado que a empresa de energia local está trabalhando para resolver o problema, com previsão de normalização em até 60 minutos. Cliente ficou ciente e foi orientado a aguardar",
+    "mensagem": "entrou em contato relatando estar sem acesso à internet após uma queda de energia. Cliente confirmou ser titular da conta e forneceu os dados solicitados. Foi informado que há uma interrupção de energia na OLT que afeta a sua região. Foi fornecido o prazo máximo de normalização conforme a URA, porém o serviço pode voltar a qualquer momento. Cliente foi orientado a entrar em contato com o setor financeiro para solicitar desconto referente ao tempo sem acesso após a normalização. Cliente ciente e de acordo.",
     "externo": false,
     "aguardar": false,
-    "etiqueta": "Rota Inoperante",
+    "etiqueta": "Problema na OLT",
     "etiqueta_externo": "",
     "servico": "",
-    "infra": "FTTH"
-  },
-  {
-    "titulo": "Comando CRM",
-    "mensagem": "relata que está sem acesso à internet. Verificamos o comando CRM no sistema e reforçamos o prazo de 24 horas para a resolução do problema. Ressaltamos que se trata do comando de ativação do serviço.",
-    "externo": false,
-    "aguardar": false,
-    "etiqueta": "Sem acesso",
-    "etiqueta_externo": "",
-    "servico": "",
-    "infra": "FTTH"
-  },
-  {
-    "titulo": "Sistema externo indisponível",
-    "mensagem": "entrou em contato informando estar sem acesso à internet, relatando que um prazo anterior para desbloqueio não foi cumprido. Foi verificado que o serviço deveria ter sido desbloqueado e está com 'Sistema externo indisponível'. A situação foi repassada ao setor responsável para que o desbloqueio fosse realizado com prioridade. Foi informado ao cliente um novo prazo de até 24 horas para a normalização do acesso. Cliente ciente do procedimento e do prazo.",
-    "externo": false,
-    "aguardar": false,
-    "etiqueta": "CPE sem sinal",
-    "etiqueta_externo": "",
-    "servico": "",
-    "infra": "FWA"
-  },
-  {
-    "titulo": "Desconexão chat",
-    "mensagem": "fez contato e durante o atendimento ficou inativo, resultando no encerramento automático devido à falta de atividade.",
-    "externo": false,
-    "aguardar": false,
-    "etiqueta": "Desconexão chat",
-    "etiqueta_externo": "",
-    "servico": "",
-    "infra": "FWA"
-  },
-  {
-    "titulo": "Desconexão chat - Telefonia",
-    "mensagem": "fez contato para relatar problema em seu telefone fixo. Durante o atendimento, ele ficou inativo durante todo o atendimento, resultando no encerramento automático devido à falta de atividade.",
-    "externo": false,
-    "aguardar": false,
-    "etiqueta": "Desconexão chat",
-    "etiqueta_externo": "",
-    "servico": "",
-    "infra": "Fixo"
-  },
-  {
-    "titulo": "Desconexão chat - TV",
-    "mensagem": "fez contato para relatar problema em seu serviço de TV. Durante o atendimento, ele ficou inativo durante todo o atendimento, resultando no encerramento automático devido à falta de atividade.",
-    "externo": false,
-    "aguardar": false,
-    "etiqueta": "Desconexão chat",
-    "etiqueta_externo": "",
-    "servico": "",
-    "infra": "TV"
-  },
-  {
-    "titulo": "Desconexão chat - Internet",
-    "mensagem": "fez contato para relatar problema em sua conexão a internet. Durante o atendimento, ele ficou inativo durante todo o atendimento, resultando no encerramento automático devido à falta de atividade.",
-    "externo": false,
-    "aguardar": false,
-    "etiqueta": "Desconexão chat",
-    "etiqueta_externo": "",
-    "servico": "",
-    "infra": "FWA"
-  },
-  {
-    "titulo": "Transferência",
-    "mensagem": "entrou em contato buscando informações ou um serviço que não se enquadrava na competência deste setor. Não houve necessidade de sondagem. Em vista disso, o cliente foi encaminhado ao setor competente para atender à sua demanda.",
-    "externo": false,
-    "aguardar": false,
-    "etiqueta": "Solicitação de dados",
-    "etiqueta_externo": "",
-    "servico": "",
-    "infra": "FTTH"
-  },
-  {
-    "titulo": "Ausência de confirmação de dados",
-    "mensagem": "não procedeu com a confirmação dos dados correspondentes ao titular durante o decorrer do atendimento. Em razão da segurança do titular, o atendimento foi encerrado. Foi feita a requisição dos dados em três ocasiões.",
-    "externo": false,
-    "aguardar": false,
-    "etiqueta": "Ausência de confirmação de dados",
-    "etiqueta_externo": "",
-    "servico": "",
-    "infra": "FTTH"
-  },
-  {
-    "titulo": "Já solucionando",
-    "mensagem": "comunica que no início do atendimento a questão já foi solucionada, tornando desnecessária a continuação do suporte.",
-    "externo": false,
-    "aguardar": false,
-    "etiqueta": "Solicitação de dados",
-    "etiqueta_externo": "",
-    "servico": "",
-    "infra": "FTTH"
-  },
-  {
-    "titulo": "Já resolvido",
-    "mensagem": "informa que a problemática já foi resolvida, sendo desnecessário a qualquer suporte.",
-    "externo": false,
-    "aguardar": false,
-    "etiqueta": "Solicitação de dados",
-    "etiqueta_externo": "",
-    "servico": "",
-    "infra": "FTTH"
-  },
-  {
-    "titulo": "Procedimento somente com o titular",
-    "mensagem": "solicita atendimento que envolve negociação/alteração de dados do cadastro, Por questões de segurança dos dados pessoais do titular, informamos que só podemos proceder após conversar diretamente com o titular do contrato. ",
-    "externo": false,
-    "aguardar": false,
-    "etiqueta": "Atendimento encerrado - Não é o titular",
-    "etiqueta_externo": "",
-    "servico": "",
-    "infra": "FTTH"
-  },
-  {
-    "titulo": "Falta de cordialidade",
-    "mensagem": "reporta um problema nos serviços da brisanet. Entretanto, durante o atendimento, houve o uso de linguagem inadequada, o que me levou a encerrar a conversa.",
-    "externo": false,
-    "aguardar": false,
-    "etiqueta": "Solicitação de dados",
-    "etiqueta_externo": "",
-    "servico": "",
-    "infra": "FTTH"
-  },
-  {
-    "titulo": "Cliente não está no local",
-    "mensagem": "entra em contato informando problema nos serviços da Brisanet, porém, durante a sondagem foi verificado que o mesmo não está na residência para verificar ou testar o serviço. O mesmo ficou de entrar em contato quando estiver no local.",
-    "externo": false,
-    "aguardar": false,
-    "etiqueta": "Solicitação de dados",
-    "etiqueta_externo": "",
-    "servico": "",
-    "infra": "FTTH"
-  },
-  {
-    "titulo": "Cliente em horário de expediente",
-    "mensagem": "entra em contato informando problema nos serviços da Brisanet, porém, durante a sondagem foi verificado que o mesmo está em horário de expediente, e por isso não podemos realizar a tratativa do problema. O mesmo ficou de entrar em contato quando estiver disponível.",
-    "externo": false,
-    "aguardar": false,
-    "etiqueta": "Solicitação de dados",
-    "etiqueta_externo": "",
-    "servico": "",
-    "infra": "FTTH"
-  },
-  {
-    "titulo": "Cliente não pode continuar devido compromisso",
-    "mensagem": "comunica dificuldades com o serviço da brisanet. Durante a verificação, constatou-se que o cliente não estava em disponível para dar continuidade ao processo. Ele entrará em contato quando estiver disponível.",
-    "externo": false,
-    "aguardar": false,
-    "etiqueta": "Solicitação de dados",
-    "etiqueta_externo": "",
-    "servico": "",
-    "infra": "FTTH"
-  },
-  {
-    "titulo": "Lentidão FWA - Resolvido",
-    "mensagem": "fez contato para relatar lentidão em sua conexão. Após verificar as informações junto ao cliente, constatou-se que o problema ocorria tanto nas proximidades quanto em locais mais distantes da CPE. Confirmado da torre no local. Foram executados os procedimentos padrões, e solicitados alguns procedimentos manuais usuais. O cliente informou que o acesso foi normalizado.",
-    "externo": false,
-    "aguardar": false,
-    "etiqueta": "Lentidão - FWA",
-    "etiqueta_externo": "",
-    "servico": "",
-    "infra": "FWA"
-  },
-  {
-    "titulo": "Lentidão FWA - Externo",
-    "mensagem": "fez contato para relatar lentidão em sua conexão. Após verificar as informações junto ao cliente, constatou-se que o problema ocorria tanto nas proximidades quanto em locais mais distantes da CPE. Confirmado da torre no local. Foram executados os procedimentos padrões, e solicitados alguns procedimentos manuais usuais. O cliente informou que o problema continuar. Dessa forma, será gerado uma O.S. Para equipe verificar no local. Agendado conforme a disponibilidade do cliente.",
-    "externo": true,
-    "aguardar": true,
-    "etiqueta": "Lentidão - FWA",
-    "etiqueta_externo": "Lentidão",
-    "servico": "Reparo FWA",
-    "infra": "FWA"
-  },
-  {
-    "titulo": "Lentidão FWA - Ficou testando",
-    "mensagem": "fez contato para relatar lentidão em sua conexão. Após verificar as informações junto ao cliente, constatou-se que o problema ocorria tanto nas proximidades quanto em locais mais distantes da CPE. Confirmado da torre no local. Foram executados os procedimentos padrões, e solicitados alguns procedimentos manuais usuais. Foi acordado com o cliente que o mesmo fique testando durante o restante do dia e caso o problema venha a persistir, será aberto uma O.S. Para verificar.",
-    "externo": false,
-    "aguardar": false,
-    "etiqueta": "Lentidão - FWA",
-    "etiqueta_externo": "",
-    "servico": "",
-    "infra": "FWA"
-  },
-  {
-    "titulo": "Lentidão FWA - Recorrente",
-    "mensagem": "informa estar enfrentando lentidão. Após verificação, observa-se que o problema afeta todos os dispositivos. Eu menciono a intenção de atualizar a rede, no entanto, o cliente destaca que essa questão é recorrente e deseja que uma equipe externa conduza uma análise, uma vez que já havia contatado previamente sem sucesso. Diante da insatisfação do cliente e da constatação de que se trata de uma situação frequente ainda não atendida localmente, uma Ordem de Serviço (O.S.) vai ser aberta para resolver o problema e garantir a retenção do cliente. Agendado de acordo com a disponibilidade do cliente.",
-    "externo": true,
-    "aguardar": true,
-    "etiqueta": "Lentidão - FWA",
-    "etiqueta_externo": "Lentidão",
-    "servico": "Reparo FWA",
-    "infra": "FWA"
-  },
-  {
-    "titulo": "Quedas de conexão FWA - Resolvido",
-    "mensagem": "fez contato para relatar quedas de acesso em sua conexão. Após verificar as informações junto ao cliente, constatou-se que o problema ocorria tanto nas proximidades quanto em locais mais distantes da CPE, contudo limitava-se à rede Wi-Fi.  Foram executados os procedimentos padrões, e solicitados alguns procedimentos manuais usuais. O cliente informou que o acesso foi normalizado.",
-    "externo": false,
-    "aguardar": false,
-    "etiqueta": "Quedas na conexão - FWA",
-    "etiqueta_externo": "",
-    "servico": "",
-    "infra": "FWA"
-  },
-  {
-    "titulo": "Quedas de conexão FWA - Externo",
-    "mensagem": "fez contato para relatar quedas de acesso em sua conexão. Após verificar as informações junto ao cliente, constatou-se que o problema ocorria tanto nas proximidades quanto em locais mais distantes da CPE, contudo limitava-se à rede Wi-Fi.  Foram executados os procedimentos padrões, e solicitados alguns procedimentos manuais usuais. O cliente informou que o acesso continua instável, desta forma foi gerada uma Ordem de Serviço (O.S.) para efetuar uma inspeção direta no local. Agendado de acordo com a disponibilidade do cliente.",
-    "externo": true,
-    "aguardar": true,
-    "etiqueta": "Quedas na conexão - FWA",
-    "etiqueta_externo": "Lentidão",
-    "servico": "Reparo FWA",
-    "infra": "FWA"
-  },
-  {
-    "titulo": "Quedas de conexão FWA - Ficou testando",
-    "mensagem": "fez contato para relatar quedas de acesso em sua conexão. Após verificar as informações junto ao cliente, constatou-se que o problema ocorria tanto nas proximidades quanto em locais mais distantes da CPE, contudo limitava-se à rede Wi-Fi.  Foram executados os procedimentos padrões, e solicitados alguns procedimentos manuais usuais. O cliente informou que a princípio o acesso foi normalizado, mas irá continuar realizando testes ao longo do restante do dia e, caso a instabilidade persista, ele irá entrar em contato conosco para que possamos verificar ou providenciar o envio de uma equipe ao local, se necessário.",
-    "externo": false,
-    "aguardar": false,
-    "etiqueta": "Quedas na conexão - FWA",
-    "etiqueta_externo": "",
-    "servico": "",
-    "infra": "FWA"
-  },
-  {
-    "titulo": "Quedas de conexão FWA - Recorrente",
-    "mensagem": "informa estar enfrentando quedas de conexão. Após verificação, observa-se que o problema afeta todos os dispositivos e se restringe à rede sem fio. Eu menciono a intenção de atualizar a rede, no entanto, o cliente destaca que essa questão é recorrente e deseja que uma equipe externa conduza uma análise, uma vez que já havia contatado previamente sem sucesso. Diante da insatisfação do cliente e da constatação de que se trata de uma situação frequente ainda não atendida localmente, uma Ordem de Serviço (O.S.) vai ser aberta para resolver o problema e garantir a retenção do cliente. Agendado de acordo com a disponibilidade do cliente.",
-    "externo": true,
-    "aguardar": true,
-    "etiqueta": "Quedas na conexão - FWA",
-    "etiqueta_externo": "Lentidão",
-    "servico": "Reparo FWA",
-    "infra": "FWA"
-  },
-  {
-    "titulo": "Alteração de Cômodo",
-    "mensagem": "fez o contato solicitando a alteração de cômodo do equipamento. Foi informado sobre a taxa de R$30,00 e valores adicionais de cabo, sendo R$1,30 por metro de cabo de rede e R$0,60 por metro de cabo de fibra, caso necessário. Cliente confirma solicitação. Foi aberta O.S. para agendamento de visita técnica.",
-    "externo": true,
-    "aguardar": true,
-    "etiqueta": "Alteração de cõmodo",
-    "etiqueta_externo": "Alteração de cõmodo",
-    "servico": "Serviço Adicional",
-    "infra": "FTTH"
-  },
-  {
-    "titulo": "Configuração Estruturada de Rede Interna",
-    "mensagem": "fez o contato solicitando o serviço de cabeamento interno. Informado sobre a Configuração Estruturada de Rede Interna no valor de R$ 90, com possibilidade de parcelamento em até 3x na fatura. Serviço inclui 20 metros de cabo de rede gratuitamente, sendo cobrado R$ 1,30 por metro adicional. Cliente ciente dos valores. Aberta O.S para realização do serviço.",
-    "externo": true,
-    "aguardar": true,
-    "etiqueta": "Configuração Estruturada de Rede Interna",
-    "etiqueta_externo": "Configuração Estruturada de Rede Interna",
-    "servico": "Serviço Adicional",
-    "infra": "FTTH"
-  },
-  {
-    "titulo": "Não Realiza/Recebe Ligações - Resolvido",
-    "mensagem": "fez o contato informando que o telefone fixo não realiza e nem recebe ligações. Foi verificada a conexão dos cabos, estando correta, e realizada configuração em sistema. Após os procedimentos, o telefone fixo voltou a funcionar normalmente.",
-    "externo": false,
-    "aguardar": false,
-    "etiqueta": "Problemas com o Telefone Fixo",
-    "etiqueta_externo": "",
-    "servico": "",
-    "infra": "Fixo"
-  },
-  {
-    "titulo": "Não Realiza/Recebe Ligações - Externo",
-    "mensagem": "fez o  contato informando que o telefone fixo não realiza e nem recebe ligações. Constatado que a linha estava registrada. Foi verificada a conexão dos cabos, estando correta, e realizada configuração em sistema. As alterações não normalizaram o serviço, sendo aberta O.S. para reparo.",
-    "externo": true,
-    "aguardar": false,
-    "etiqueta": "Problemas com o Telefone Fixo",
-    "etiqueta_externo": "Problemas com o Telefone Fixo",
-    "servico": "Reparo Rápido",
-    "infra": "Fixo"
-  },
-  {
-    "titulo": "Hibernação Chat",
-    "mensagem": "fez contato e durante o atendimento ficou inativo, resultando no encerramento automático devido à falta de atividade, entrando em hibernação.",
-    "externo": false,
-    "aguardar": false,
-    "etiqueta": "Hibernação chat",
-    "etiqueta_externo": "",
-    "servico": "",
-    "infra": "FTTH"
-  },
-  {
-    "titulo": "Alteracão de equipamento no mesmo cômodo",
-    "mensagem": "fez o contato solicitando a alteração do equipamento no mesmo cômodo. Foi informado sobre a taxa da visita de R$20,00 e valores adicionais de cabo, sendo R$1,30 por metro de cabo de rede e R$0,60 por metro de cabo de fibra, caso necessário. Cliente confirma solicitação. Foi aberta O.S. para agendamento de visita técnica.",
-    "externo": true,
-    "aguardar": true,
-    "etiqueta": "Alteração de cõmodo",
-    "etiqueta_externo": "Alteração de cõmodo",
-    "servico": "Serviço Adicional",
-    "infra": "FTTH"
-  },
-  {
-    "titulo": "Problema em roteador particular - Técnico particular",
-    "mensagem": "relatou problemas com seu roteador particular, que estava sem acesso à internet. Após a verificação, foi constatado que o roteador da Brisanet estava funcionando normalmente, mas o roteador específico continuava sem conexão. Foi recomendado que o cliente reinicie o roteador particular, logo após ser reconfigurado os equipamentos da brisanet. Como o acesso não retornou, foi recomendado que verifique as configurações, conexões de cabos e possíveis interferências. Caso o problema persista, foi sugerido entrar em contato com o suporte técnico do roteador para assistência personalizada.",
-    "externo": false,
-    "aguardar": false,
-    "etiqueta": "Suporte a equipamento particular",
-    "etiqueta_externo": "",
-    "servico": "",
-    "infra": "FTTH"
-  },
-  {
-    "titulo": "Conecta+",
-    "mensagem": "fez o contato solicitando serviço de cabeamento interno. Verificado que o cliente possui o serviço do Conecta+ ativo, foram repassadas as informações sobre os 30 metros de cabo de rede gratuitos e cobrança de R$ 1,30 por metro adicional. Aberta O.S. para realização do cabeamento.",
-    "externo": true,
-    "aguardar": true,
-    "etiqueta": "Conecta+",
-    "etiqueta_externo": "Conecta+",
-    "servico": "Serviço Adicional",
-    "infra": "FTTH"
-  },
-  {
-    "titulo": "Bloqueio total - FWA",
-    "mensagem": "entrou em contato informando estar sem acesso ao serviço, mesmo após o pagamento da fatura. Esclarecemos que a regularização do acesso pode levar até 24 horas após a confirmação do pagamento. O cliente foi informado e está ciente dos detalhes.",
-    "externo": false,
-    "aguardar": false,
-    "etiqueta": "Inadimplência Financeira",
-    "etiqueta_externo": "",
-    "servico": "",
-    "infra": "FWA"
-  },
-  {
-    "titulo": "Erro de NTP - TV",
-    "mensagem": "entrou em contato informando que a TV Brisanet está sem serviço, apresentando erro NTP. Os cabos foram conferidos e estão corretos. O cliente foi orientado a realizar os procedimentos de NTP e, em seguida, a ONU foi reconfigurada, porém o problema persistiu. Será aberta O.S para verificação técnica no local.",
-    "externo": true,
-    "aguardar": false,
-    "etiqueta": "Erro de NTP",
-    "etiqueta_externo": "Erro de NTP",
-    "servico": "Reparo Rápido",
-    "infra": "TV"
-  },
-  {
-    "titulo": "Telefone mudo - Resolvido",
-    "mensagem": "entra em contato informando que o telefone fixo está mudo. Foram verificados os cabos e a trava lateral, estando corretos. O telefone encontra-se registrado normalmente. O cliente foi orientado a retirar o cabo da porta phone e recolocá-lo. Também foram configuradas as portas FXS e reconfigurada a ONU. Após os procedimentos, o telefone voltou à normalidade.",
-    "externo": false,
-    "aguardar": false,
-    "etiqueta": "Telefone mudo",
-    "etiqueta_externo": "",
-    "servico": "",
-    "infra": "Fixo"
-  },
-  {
-    "titulo": "Telefone mudo - Externo",
-    "mensagem": "entra em contato informando que o telefone fixo está mudo. Foram verificados os cabos e a trava lateral, estando corretos. O telefone encontra-se registrado normalmente. O cliente foi orientado a retirar o cabo da porta phone e recolocá-lo. Também foram configuradas as portas FXS e reconfigurada a ONU, porém o problema persistiu. Será aberta O.S para reparo.",
-    "externo": true,
-    "aguardar": false,
-    "etiqueta": "Telefone mudo",
-    "etiqueta_externo": "Telefone mudo",
-    "servico": "Reparo Rápido",
-    "infra": "Fixo"
+    "infra": "Geral",
+    "prioridade": 0
   }
 ]

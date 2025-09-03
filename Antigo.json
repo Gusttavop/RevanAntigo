@@ -19,7 +19,7 @@
     "etiqueta_externo": "Lentidão",
     "servico": "Reparo Rápido",
     "infra": "Geral",
-    "prioridade": 2
+    "prioridade": 1
   },
   {
     "titulo": "Lentidão FTTH - Ficou testando",
@@ -370,17 +370,6 @@
     "etiqueta": "Plano não chega o contratado - FTTH",
     "etiqueta_externo": "",
     "servico": "",
-    "infra": "Geral",
-    "prioridade": 0
-  },
-  {
-    "titulo": "Suspeita de LOS",
-    "mensagem": "relatou a falta de acesso e a presença de um LED vermelho piscando. Ao questionar a possibilidade de incidentes ou remoção de equipamentos, o cliente negou qualquer ocorrência. Após constatar a normalidade da rota, foi gerada uma Ordem de Serviço (O.S.) para efetuar uma inspeção direta no local. Agendado de acordo com a disponibilidade do cliente.",
-    "externo": true,
-    "aguardar": false,
-    "etiqueta": "Suspeita de LOS",
-    "etiqueta_externo": "Suspeita de  LOS",
-    "servico": "Reparo Físico",
     "infra": "Geral",
     "prioridade": 0
   },
@@ -1010,5 +999,15 @@
     "servico": "Reparo Rápido",
     "infra": "Geral",
     "prioridade": 0
-  }
+  },
+  {
+    "titulo": "Suspeita de LOS",
+    "mensagem": "entra em contato informando que o telefone fixo está mudo. Foram verificados os cabos e a trava lateral, estando corretos. O telefone encontra-se registrado normalmente. O cliente foi orientado a retirar o cabo da porta phone e recolocá-lo. Também foram configuradas as portas FXS e reconfigurada a ONU, porém o problema persistiu. Será aberta O.S para reparo.",
+    "externo": true,
+    "aguardar": false,
+    "etiqueta": "Suspeita de LOS",
+    "etiqueta_externo": "Suspeita de  LOS",
+    "servico": "Reparo Físico",
+    "infra": "Geral",
+    "prioridade": 1
 ]

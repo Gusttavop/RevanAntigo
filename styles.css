@@ -1,52 +1,152 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Sidebar Automação</title>
-<link rel="stylesheet" href="styles.css">
-</head>
-<body>
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
 
-<!-- Botão flutuante -->
-<button id="openSidebarBtn" class="floating-btn">⚡ Automação</button>
+/* Botão flutuante */
+.floating-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  padding: 12px 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: background 0.2s, transform 0.2s;
+  z-index: 1001;
+}
+.floating-btn:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
 
-<!-- Overlay -->
-<div id="sidebar-overlay" class="overlay"></div>
+/* Overlay */
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+  display: none;
+  z-index: 1000;
+}
 
-<!-- Sidebar lateral -->
-<div id="sidebar" class="sidebar">
-  <div class="sidebar-header">
-    <h2>Informações</h2>
-    <button id="closeSidebarBtn">&times;</button>
-  </div>
-  <div class="sidebar-content">
-    <label>Pesquisar:</label>
-    <input type="text" id="searchInput" placeholder="Digite para filtrar...">
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: -350px; /* escondida por padrão */
+  width: 350px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: -2px 0 12px rgba(0,0,0,0.15);
+  transition: right 0.3s ease;
+  z-index: 1002;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
 
-    <ul id="dropdown"></ul>
+/* Sidebar aberta */
+.sidebar.open {
+  right: 0;
+}
 
-    <div class="checkbox-section">
-      <label><input type="checkbox" id="externalCallCheckbox"> Externo</label>
-      <label><input type="checkbox" id="reminderCheckbox"> Lembrete</label>
-      <label><input type="checkbox" id="importantCheckbox"> Importante</label>
-    </div>
+/* Header */
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.sidebar-header h2 {
+  font-size: 1.2rem;
+  color: #333;
+}
+#closeSidebarBtn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
 
-    <textarea id="observationsTextarea" placeholder="Observações..."></textarea>
+/* Inputs e textarea */
+.sidebar input[type="text"],
+.sidebar textarea {
+  width: 100%;
+  padding: 8px 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border 0.2s;
+}
+.sidebar input[type="text"]:focus,
+.sidebar textarea:focus {
+  border-color: #007bff;
+}
 
-    <div class="preview-section">
-      <div id="internalLabelPreview"></div>
-      <div id="externalLabelPreview"></div>
-      <div id="finalMessagePreview"></div>
-    </div>
+/* Checkbox section */
+.checkbox-section {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin: 10px 0;
+}
+.checkbox-section label {
+  font-size: 0.9rem;
+  color: #333;
+}
 
-    <div class="button-container">
-      <button class="send-button" disabled>Enviar</button>
-      <button class="edit-button" disabled>Editar</button>
-    </div>
-  </div>
-</div>
+/* Preview */
+.preview-section {
+  margin-top: 10px;
+  background: #f9f9f9;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 0.85rem;
+  color: #555;
+}
+.preview-section div + div {
+  margin-top: 8px;
+}
 
-<script src="script.js"></script>
-</body>
-</html>
+/* Buttons */
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.button-container button {
+  flex: 1;
+  margin: 0 5px;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background 0.2s;
+}
+.send-button {
+  background-color: #28a745;
+  color: white;
+}
+.send-button:disabled {
+  background-color: #a8d5a2;
+  cursor: not-allowed;
+}
+.edit-button {
+  background-color: #ffc107;
+  color: #333;
+}
+.edit-button:disabled {
+  background-color: #ffe39f;
+  cursor: not-allowed;
+}

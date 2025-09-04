@@ -1,35 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
 
-/* --- Variáveis e Configurações Globais --- */
+/* --- Variáveis e Configurações Globais (Clean) --- */
 :root {
-  --ua-primary: #3b82f6;
-  --ua-primary-light: #60a5fa;
-  --ua-primary-dark: #2563eb;
-  --ua-secondary: #10b981;
-  --ua-secondary-dark: #059669;
-  --ua-tertiary: #f59e0b;
-  --ua-bg-body: #f3f4f6;
+  --ua-primary: #007bff; /* Azul mais neutro */
+  --ua-primary-light: #4da3ff;
+  --ua-primary-dark: #0056b3;
+  --ua-secondary: #28a745; /* Verde de sucesso */
+  --ua-secondary-dark: #218838;
+  --ua-tertiary: #ffc107; /* Amarelo de atenção */
+  --ua-bg-body: #f8f9fa; /* Fundo muito claro */
   --ua-bg-card: #ffffff;
-  --ua-bg-dark: #1f2937;
-  --ua-text-primary: #111827;
-  --ua-text-secondary: #6b7280;
-  --ua-border: #e5e7eb;
-  --ua-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --ua-border-radius: 8px;
+  --ua-bg-dark: #343a40; /* Para textos escuros */
+  --ua-text-primary: #212529;
+  --ua-text-secondary: #6c757d;
+  --ua-border: #dee2e6; /* Borda sutil */
+  --ua-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Sombra mais leve */
+  --ua-border-radius: 6px;
   --ua-transition-ease: all 0.2s ease-in-out;
 }
 
-/* --- Botão Flutuante --- */
+body {
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: var(--ua-text-primary);
+}
+
+/* --- Botão Flutuante (Clean) --- */
 .ua-automation-floating-btn {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
+  bottom: 25px;
+  right: 25px;
   background-color: var(--ua-primary);
   color: #fff;
   border: none;
   border-radius: 50%;
-  width: 56px;
-  height: 56px;
+  width: 50px;
+  height: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,17 +44,18 @@
   box-shadow: var(--ua-shadow);
   z-index: 10000;
   transition: var(--ua-transition-ease);
-  font-size: 0;
+  font-size: 0; /* Oculta texto se houver */
 }
 
 .ua-automation-floating-btn:hover {
   background-color: var(--ua-primary-light);
-  transform: translateY(-2px);
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .ua-automation-floating-btn svg {
-  width: 24px;
-  height: 24px;
+  width: 22px;
+  height: 22px;
 }
 
 .ua-automation-floating-btn.ua-hidden-by-modal {
@@ -56,14 +64,14 @@
   transform: scale(0.8);
 }
 
-/* --- Modal Principal --- */
+/* --- Modal Principal (Clean) --- */
 #automationOverlay {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.4); /* Overlay mais suave */
   z-index: 9999;
   opacity: 0;
   pointer-events: none;
@@ -79,20 +87,20 @@
   position: fixed;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%) scale(0.95);
+  transform: translate(-50%, -50%) scale(0.98);
   background-color: var(--ua-bg-body);
   border-radius: var(--ua-border-radius);
-  box-shadow: var(--ua-shadow);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1); /* Sombra mais destacada */
   z-index: 10000;
-  width: 95%;
-  max-width: 1100px;
-  max-height: 95vh;
+  width: 90%;
+  max-width: 1000px; /* Um pouco menor */
+  max-height: 90vh; /* Mais espaço nas bordas */
   display: flex;
   flex-direction: column;
   opacity: 0;
   visibility: hidden;
-  transition: transform 0.3s ease, opacity 0.3s ease;
-  font-family: 'Poppins', sans-serif;
+  transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 0.3s ease;
+  font-family: 'Inter', sans-serif;
 }
 
 #automationModal.ua-show {
@@ -102,7 +110,7 @@
 }
 
 .ua-modal-header {
-  padding: 16px 24px;
+  padding: 18px 25px;
   border-bottom: 1px solid var(--ua-border);
   display: flex;
   justify-content: space-between;
@@ -113,7 +121,7 @@
 }
 
 .ua-modal-header h2 {
-  font-size: 1.25rem;
+  font-size: 1.15rem;
   font-weight: 600;
   color: var(--ua-text-primary);
   margin: 0;
@@ -123,21 +131,22 @@
   background: none;
   border: none;
   color: var(--ua-text-secondary);
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   cursor: pointer;
   transition: color 0.2s;
+  padding: 0 5px; /* Ajuste para clique */
 }
 
 .ua-close-btn:hover {
-  color: var(--ua-text-primary);
+  color: var(--ua-primary);
 }
 
 .ua-modal-content {
   display: flex;
   flex-grow: 1;
   overflow: hidden;
-  padding: 24px;
-  gap: 24px;
+  padding: 25px;
+  gap: 25px;
 }
 
 .ua-left-panel,
@@ -146,43 +155,33 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  transition: var(--ua-transition-ease);
-}
-
-.ua-left-panel.ua-full-width {
-  flex: 1;
-}
-
-.ua-right-panel {
-  flex: 1;
 }
 
 .ua-right-panel.ua-hidden {
   display: none;
 }
 
-.ua-search-container {
-  position: relative;
-}
-
+/* --- Campo de Busca (Clean) --- */
 .ua-search-input-wrapper {
   position: relative;
 }
 
 #searchInput {
   width: 100%;
-  padding: 12px 40px 12px 16px;
+  padding: 11px 40px 11px 15px;
   border-radius: var(--ua-border-radius);
   border: 1px solid var(--ua-border);
-  font-size: 1rem;
-  transition: border-color 0.2s;
-  font-family: 'Poppins', sans-serif;
+  font-size: 0.95rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  font-family: 'Inter', sans-serif;
+  color: var(--ua-text-primary);
+  background-color: var(--ua-bg-card);
 }
 
 #searchInput:focus {
   outline: none;
   border-color: var(--ua-primary);
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.15); /* Sombra de foco mais sutil */
 }
 
 #searchInput::placeholder {
@@ -191,30 +190,28 @@
 
 .ua-search-icon {
   position: absolute;
-  left: 16px;
+  left: 15px;
   top: 50%;
   transform: translateY(-50%);
   color: var(--ua-text-secondary);
+  pointer-events: none; /* Não interfere com o input */
 }
 
 .ua-clear-button {
   position: absolute;
-  right: 12px;
+  right: 10px;
   top: 50%;
   transform: translateY(-50%);
   background: none;
   border: none;
   color: var(--ua-text-secondary);
   cursor: pointer;
-  transition: color 0.2s;
-  padding: 8px;
-  opacity: 1;
-  visibility: visible;
-  transition: opacity 0.2s;
+  padding: 6px;
+  transition: color 0.2s, opacity 0.2s;
 }
 
 .ua-clear-button:hover {
-  color: var(--ua-text-primary);
+  color: var(--ua-primary);
 }
 
 .ua-clear-button.ua-hidden {
@@ -222,25 +219,26 @@
   pointer-events: none;
 }
 
-/* --- Dropdown de Resultados --- */
+/* --- Dropdown de Resultados (Clean) --- */
 #dropdown {
   position: absolute;
-  top: calc(100% + 8px);
+  top: calc(100% + 5px);
   left: 0;
   width: 100%;
   background-color: var(--ua-bg-card);
   border-radius: var(--ua-border-radius);
   box-shadow: var(--ua-shadow);
   list-style: none;
-  padding: 8px 0;
+  padding: 5px 0;
   margin: 0;
   z-index: 10;
-  max-height: 300px;
+  max-height: 280px;
   overflow-y: auto;
   opacity: 0;
-  transform: translateY(-10px);
+  transform: translateY(-5px);
   pointer-events: none;
   transition: opacity 0.2s ease, transform 0.2s ease;
+  border: 1px solid var(--ua-border); /* Borda para definição */
 }
 
 #dropdown.ua-show {
@@ -250,18 +248,20 @@
 }
 
 #dropdown li {
-  padding: 12px 16px;
+  padding: 10px 15px;
   cursor: pointer;
-  transition: background-color 0.2s;
+  transition: background-color 0.15s, color 0.15s;
   color: var(--ua-text-primary);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  font-size: 0.9rem;
 }
 
 #dropdown li.selected,
 #dropdown li:hover {
   background-color: var(--ua-bg-body);
+  color: var(--ua-primary);
 }
 
 #dropdown li.ua-dropdown-no-results {
@@ -269,27 +269,24 @@
   color: var(--ua-text-secondary);
   font-style: italic;
   text-align: center;
-  padding: 16px;
+  padding: 15px;
 }
 
-/* --- Cards da Interface --- */
+/* --- Cards da Interface (Clean) --- */
 .ua-card {
   background-color: var(--ua-bg-card);
   border-radius: var(--ua-border-radius);
   border: 1px solid var(--ua-border);
-  padding: 20px;
+  padding: 18px 20px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 15px;
+  box-shadow: var(--ua-shadow); /* Sombra sutil para destaque */
 }
 
 .ua-card.ua-card-message {
   flex-grow: 1;
-  min-height: 250px;
-}
-
-.ua-card.ua-card-preview {
-  display: none;
+  min-height: 220px;
 }
 
 .ua-card-header {
@@ -297,7 +294,7 @@
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 1rem;
   color: var(--ua-text-primary);
 }
@@ -306,7 +303,7 @@
   margin: 0;
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
 }
 
 .ua-accordion-icon {
@@ -328,18 +325,18 @@
 }
 
 .ua-card-content.ua-expanded {
-  max-height: 1000px;
+  max-height: 1000px; /* Valor alto para garantir expansão */
   opacity: 1;
 }
 
 .ua-input-group {
   display: flex;
   flex-direction: column;
-  gap: 6px;
+  gap: 5px;
 }
 
 .ua-input-group label {
-  font-size: 0.875rem;
+  font-size: 0.85rem;
   font-weight: 500;
   color: var(--ua-text-secondary);
 }
@@ -348,13 +345,14 @@
 .ua-input-group select,
 .ua-input-group textarea {
   width: 100%;
-  padding: 8px 12px;
-  border-radius: 6px;
+  padding: 9px 12px;
+  border-radius: var(--ua-border-radius);
   border: 1px solid var(--ua-border);
   font-size: 0.875rem;
   color: var(--ua-text-primary);
-  transition: border-color 0.2s;
-  font-family: 'Poppins', sans-serif;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--ua-bg-card);
 }
 
 .ua-input-group input:focus,
@@ -362,6 +360,7 @@
 .ua-input-group textarea:focus {
   outline: none;
   border-color: var(--ua-primary);
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.1);
 }
 
 .ua-checkbox-container {
@@ -370,6 +369,8 @@
   gap: 8px;
   cursor: pointer;
   user-select: none;
+  font-size: 0.9rem;
+  color: var(--ua-text-primary);
 }
 
 .ua-checkbox-container input {
@@ -385,6 +386,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0; /* Impede que o checkbox encolha */
 }
 
 .ua-checkmark:after {
@@ -395,7 +397,7 @@
   background-color: white;
   opacity: 0;
   transform: scale(0.6);
-  transition: transform 0.2s ease, opacity 0.2s ease;
+  transition: transform 0.2s cubic-bezier(0.18, 0.89, 0.32, 1.28), opacity 0.2s ease;
 }
 
 .ua-checkbox-container input:checked ~ .ua-checkmark {
@@ -412,26 +414,28 @@
   display: none !important;
 }
 
-/* --- Prévia da Mensagem --- */
+/* --- Prévia da Mensagem (Clean) --- */
 #messagePreview {
   white-space: pre-wrap;
-  background-color: var(--ua-bg-body);
+  background-color: var(--ua-bg-body); /* Fundo mais claro */
   border: 1px solid var(--ua-border);
-  border-radius: 6px;
+  border-radius: var(--ua-border-radius);
   padding: 12px;
-  min-height: 120px;
+  min-height: 100px;
   font-size: 0.875rem;
   color: var(--ua-text-primary);
   overflow-y: auto;
-  max-height: 250px;
+  max-height: 200px;
+  line-height: 1.5;
 }
 
 .ua-message-stats {
   display: flex;
   justify-content: flex-end;
-  gap: 16px;
+  gap: 15px;
   font-size: 0.75rem;
   color: var(--ua-text-secondary);
+  margin-top: 5px;
 }
 
 .ua-message-stats span {
@@ -441,21 +445,16 @@
 }
 
 .ua-message-stats svg {
-  width: 12px;
-  height: 12px;
+  width: 13px;
+  height: 13px;
   stroke: var(--ua-text-secondary);
 }
 
-/* --- Prévia de Tags --- */
-#tagPreview.ua-hidden,
-#actionPreview.ua-hidden {
-  display: none;
-}
-
+/* --- Prévia de Tags (Clean) --- */
 .ua-tag-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 12px;
 }
 
 .ua-tag-group-title {
@@ -463,7 +462,7 @@
   color: var(--ua-text-primary);
   font-size: 0.9rem;
   margin-bottom: 8px;
-  border-bottom: 1px dashed var(--ua-border);
+  border-bottom: 1px solid var(--ua-border); /* Linha mais fina */
   padding-bottom: 4px;
 }
 
@@ -474,11 +473,11 @@
 }
 
 .ua-tag-item {
-  padding: 4px 8px;
+  padding: 3px 8px;
   border-radius: 4px;
   font-size: 0.75rem;
   font-weight: 500;
-  text-transform: uppercase;
+  text-transform: capitalize; /* Capitalize para um look mais clean */
   color: #fff;
 }
 
@@ -492,13 +491,14 @@
 
 .ua-tag-item.service {
   background-color: var(--ua-tertiary);
+  color: var(--ua-text-primary); /* Texto escuro para contraste no amarelo */
 }
 
-/* --- Prévia de Ações --- */
+/* --- Prévia de Ações (Clean) --- */
 .ua-action-list {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 10px;
 }
 
 .ua-action-item {
@@ -510,26 +510,26 @@
 }
 
 .ua-action-icon {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   stroke: var(--ua-primary);
 }
 
-/* --- Estados Vazios --- */
+/* --- Estados Vazios (Clean) --- */
 .ua-empty-state {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 20px;
+  padding: 20px 10px;
   gap: 8px;
   color: var(--ua-text-secondary);
-  font-size: 0.875rem;
+  font-size: 0.85rem;
 }
 
 .ua-empty-state-icon {
-  width: 48px;
-  height: 48px;
+  width: 40px;
+  height: 40px;
   stroke: var(--ua-border);
 }
 
@@ -537,11 +537,7 @@
   font-style: italic;
 }
 
-/* --- Filtros --- */
-.ua-filter-accordion-header {
-  position: relative;
-}
-
+/* --- Filtros (Clean) --- */
 #filterCountBadge {
   position: absolute;
   top: 50%;
@@ -555,7 +551,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.75rem;
+  font-size: 0.7rem;
   font-weight: 600;
   transition: var(--ua-transition-ease);
 }
@@ -563,7 +559,7 @@
 #filterOptions {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  gap: 10px;
 }
 
 .ua-filter-option {
@@ -571,43 +567,37 @@
   align-items: center;
   cursor: pointer;
   user-select: none;
-  font-size: 0.875rem;
+  font-size: 0.85rem;
   color: var(--ua-text-primary);
-}
-
-.ua-filter-option input {
-  display: none;
-}
-
-.ua-filter-label {
-  margin-left: 8px;
 }
 
 #clearFiltersBtn {
   background: none;
   border: none;
   color: var(--ua-primary);
-  font-size: 0.875rem;
+  font-size: 0.85rem;
   font-weight: 500;
   cursor: pointer;
   transition: color 0.2s;
   display: flex;
   align-items: center;
   gap: 4px;
+  align-self: flex-start; /* Alinha o botão à esquerda */
+  padding: 5px 0;
 }
 
 #clearFiltersBtn:hover {
   color: var(--ua-primary-dark);
 }
 
-/* --- Modal de Edição --- */
+/* --- Modal de Edição (Clean) --- */
 #editModal {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
   z-index: 10001;
   display: flex;
   align-items: center;
@@ -624,16 +614,16 @@
 
 .ua-edit-modal-content {
   background-color: var(--ua-bg-card);
-  padding: 24px;
+  padding: 25px;
   border-radius: var(--ua-border-radius);
   width: 90%;
-  max-width: 600px;
-  box-shadow: var(--ua-shadow);
+  max-width: 550px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   display: flex;
   flex-direction: column;
-  gap: 16px;
-  transform: scale(0.95);
-  transition: transform 0.3s ease;
+  gap: 15px;
+  transform: scale(0.98);
+  transition: transform 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
 #editModal.ua-show .ua-edit-modal-content {
@@ -641,36 +631,42 @@
 }
 
 .ua-edit-modal-header {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   font-weight: 600;
   color: var(--ua-text-primary);
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 }
 
 #editMessageTextarea {
   width: 100%;
-  height: 300px;
+  height: 250px;
   border-radius: var(--ua-border-radius);
   border: 1px solid var(--ua-border);
   padding: 12px;
   font-size: 0.9rem;
   color: var(--ua-text-primary);
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Inter', sans-serif;
+  background-color: var(--ua-bg-body); /* Fundo mais suave para textarea */
+  resize: vertical; /* Permite redimensionar verticalmente */
 }
 
 .ua-edit-modal-buttons {
   display: flex;
   justify-content: flex-end;
-  gap: 12px;
+  gap: 10px;
 }
 
 .ua-btn {
-  padding: 10px 20px;
+  padding: 9px 18px;
   border: none;
-  border-radius: 6px;
-  font-weight: 600;
+  border-radius: var(--ua-border-radius);
+  font-weight: 500;
   cursor: pointer;
   transition: var(--ua-transition-ease);
+  font-size: 0.9rem;
+  display: flex; /* Para ícones */
+  align-items: center;
+  gap: 6px;
 }
 
 .ua-btn-primary {
@@ -689,12 +685,13 @@
 }
 
 .ua-btn-secondary:hover {
-  background-color: #e5e7eb;
+  background-color: #e9ecef;
+  color: var(--ua-text-primary);
 }
 
-/* --- Rodapé do Modal --- */
+/* --- Rodapé do Modal (Clean) --- */
 .ua-modal-footer {
-  padding: 16px 24px;
+  padding: 16px 25px;
   border-top: 1px solid var(--ua-border);
   display: flex;
   justify-content: space-between;
@@ -709,24 +706,15 @@
   display: none;
 }
 
-.ua-modal-footer button {
-  padding: 12px 24px;
-  border-radius: var(--ua-border-radius);
-  border: none;
-  font-size: 1rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: var(--ua-transition-ease);
-}
-
 #clearButton {
   background-color: transparent;
   color: var(--ua-text-secondary);
   font-weight: 500;
+  padding: 9px 15px; /* Ajuste padding */
 }
 
 #clearButton:hover {
-  color: var(--ua-text-primary);
+  color: var(--ua-primary);
 }
 
 #sendButton {
@@ -735,6 +723,7 @@
   display: flex;
   align-items: center;
   gap: 8px;
+  padding: 10px 20px;
 }
 
 #sendButton:hover {
@@ -742,18 +731,20 @@
 }
 
 #sendButton:disabled {
-  background-color: #ccc;
+  background-color: #cccccc;
+  color: #888888;
   cursor: not-allowed;
+  box-shadow: none;
 }
 
-/* --- Efeitos e Animações --- */
+/* --- Efeitos e Animações (Clean) --- */
 .ua-loading-spinner {
-  border: 4px solid rgba(255, 255, 255, 0.3);
-  border-top: 4px solid #fff;
+  border: 3px solid rgba(255, 255, 255, 0.4);
+  border-top: 3px solid #fff;
   border-radius: 50%;
-  width: 24px;
-  height: 24px;
-  animation: ua-spin 1s linear infinite;
+  width: 18px;
+  height: 18px;
+  animation: ua-spin 0.8s linear infinite;
 }
 
 @keyframes ua-spin {
@@ -763,19 +754,20 @@
 
 .ua-toast {
   position: fixed;
-  bottom: 20px;
-  right: 20px;
-  padding: 12px 24px;
+  bottom: 25px;
+  right: 25px;
+  padding: 10px 20px;
   border-radius: var(--ua-border-radius);
   color: #fff;
   box-shadow: var(--ua-shadow);
   opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 0.4s ease, transform 0.4s ease;
+  transform: translateY(15px);
+  transition: opacity 0.3s ease, transform 0.3s ease;
   z-index: 10001;
-  font-family: 'Poppins', sans-serif;
-  min-width: 250px;
+  font-family: 'Inter', sans-serif;
+  min-width: 220px;
   text-align: center;
+  font-size: 0.9rem;
 }
 
 .ua-toast.ua-show {
@@ -788,7 +780,7 @@
 }
 
 .ua-toast.error {
-  background-color: #ef4444;
+  background-color: #dc3545; /* Vermelho mais suave */
 }
 
 /* Draggable Button */
@@ -796,28 +788,37 @@
   cursor: grabbing;
 }
 
-/* Responsividade */
+/* Responsividade (Clean) */
 @media (max-width: 768px) {
+  #automationModal {
+    width: 98%;
+    max-height: 98vh;
+  }
+
   .ua-modal-content {
     flex-direction: column;
-    padding: 16px;
-    gap: 16px;
+    padding: 15px;
+    gap: 15px;
   }
   
   .ua-right-panel, .ua-left-panel {
     min-width: 100%;
   }
 
-  .ua-right-panel.ua-hidden {
-    display: none;
+  .ua-modal-header, .ua-modal-footer {
+    padding: 15px 20px;
   }
-  
+
   .ua-modal-footer {
     flex-direction: column;
-    gap: 12px;
+    gap: 10px;
   }
   
   .ua-modal-footer button {
     width: 100%;
+  }
+
+  #editModal .ua-edit-modal-content {
+    width: 95%;
   }
 }

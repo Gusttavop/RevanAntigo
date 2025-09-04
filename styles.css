@@ -1,171 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sidebar Automação</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
 
-/* --- Variáveis e Configurações Globais (Lateral) --- */
-:root {
-  --ua-primary: #007bff;
-  --ua-primary-light: #4da3ff;
-  --ua-primary-dark: #0056b3;
-  --ua-secondary: #28a745;
-  --ua-secondary-dark: #218838;
-  --ua-tertiary: #ffc107;
-  --ua-bg-body: #f8f9fa;
-  --ua-bg-card: #ffffff;
-  --ua-bg-dark: #343a40;
-  --ua-text-primary: #212529;
-  --ua-text-secondary: #6c757d;
-  --ua-border: #dee2e6;
-  --ua-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
-  --ua-border-radius: 6px;
-  --ua-transition-ease: all 0.2s ease-in-out;
-}
+<!-- Botão flutuante -->
+<button id="openSidebarBtn" class="floating-btn">⚡ Automação</button>
 
-body {
-  font-family: 'Inter', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  color: var(--ua-text-primary);
-}
+<!-- Overlay -->
+<div id="sidebar-overlay" class="overlay"></div>
 
-/* --- Botão Flutuante (Lateral) --- */
-.ua-automation-floating-btn {
-  position: fixed;
-  bottom: 25px;
-  right: 25px;
-  background-color: var(--ua-primary);
-  color: #fff;
-  border: none;
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
-  z-index: 10001;
-  transition: var(--ua-transition-ease);
-  font-size: 0;
-}
+<!-- Sidebar lateral -->
+<div id="sidebar" class="sidebar">
+  <div class="sidebar-header">
+    <h2>Informações</h2>
+    <button id="closeSidebarBtn">&times;</button>
+  </div>
+  <div class="sidebar-content">
+    <label>Pesquisar:</label>
+    <input type="text" id="searchInput" placeholder="Digite para filtrar...">
 
-.ua-automation-floating-btn:hover {
-  background-color: var(--ua-primary-light);
-  transform: scale(1.05);
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-}
+    <ul id="dropdown"></ul>
 
-.ua-automation-floating-btn svg {
-  width: 22px;
-  height: 22px;
-}
+    <div class="checkbox-section">
+      <label><input type="checkbox" id="externalCallCheckbox"> Externo</label>
+      <label><input type="checkbox" id="reminderCheckbox"> Lembrete</label>
+      <label><input type="checkbox" id="importantCheckbox"> Importante</label>
+    </div>
 
-.ua-automation-floating-btn.ua-hidden-by-modal {
-  opacity: 0;
-  pointer-events: none;
-  transform: scale(0.8);
-}
+    <textarea id="observationsTextarea" placeholder="Observações..."></textarea>
 
-/* --- Barra Lateral Fixa --- */
-#automationOverlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: transparent; /* Overlay invisível */
-  z-index: 9999;
-  pointer-events: none;
-  transition: background-color 0.3s ease;
-}
+    <div class="preview-section">
+      <div id="internalLabelPreview"></div>
+      <div id="externalLabelPreview"></div>
+      <div id="finalMessagePreview"></div>
+    </div>
 
-#automationOverlay.ua-show {
-  background-color: rgba(0, 0, 0, 0.2); /* Fundo semi-transparente quando aberto */
-  pointer-events: auto;
-}
+    <div class="button-container">
+      <button class="send-button" disabled>Enviar</button>
+      <button class="edit-button" disabled>Editar</button>
+    </div>
+  </div>
+</div>
 
-#automationModal {
-  position: fixed;
-  top: 0;
-  right: 0;
-  height: 100vh;
-  width: 0; /* Começa com largura zero */
-  max-width: 400px;
-  background-color: var(--ua-bg-body);
-  box-shadow: var(--ua-shadow);
-  z-index: 10000;
-  display: flex;
-  flex-direction: column;
-  overflow-x: hidden;
-  transition: width 0.3s cubic-bezier(0.2, 0.8, 0.2, 1);
-  font-family: 'Inter', sans-serif;
-}
-
-#automationModal.ua-show {
-  width: 100%;
-}
-
-.ua-modal-header {
-  padding: 18px 25px;
-  border-bottom: 1px solid var(--ua-border);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: var(--ua-bg-card);
-  flex-shrink: 0;
-}
-
-.ua-modal-header h2 {
-  font-size: 1.15rem;
-  font-weight: 600;
-  color: var(--ua-text-primary);
-  margin: 0;
-}
-
-.ua-close-btn {
-  background: none;
-  border: none;
-  color: var(--ua-text-secondary);
-  font-size: 1.6rem;
-  cursor: pointer;
-  transition: color 0.2s;
-  padding: 0 5px;
-}
-
-.ua-close-btn:hover {
-  color: var(--ua-primary);
-}
-
-.ua-modal-content {
-  flex-grow: 1;
-  padding: 25px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  overflow-y: auto;
-}
-
-/* O resto do CSS é o mesmo da versão Clean, apenas removendo as classes de layout flex para o modal */
-
-/* Removidos:
-.ua-left-panel, .ua-right-panel { ... }
-.ua-left-panel.ua-full-width { ... }
-.ua-right-panel.ua-hidden { ... }
-*/
-
-/* Card de tags e ações agora estão na mesma coluna */
-.ua-card {
-  /* ... mesmo estilo ... */
-}
-
-#modalFooter {
-  padding: 16px 25px;
-  border-top: 1px solid var(--ua-border);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: var(--ua-bg-card);
-  flex-shrink: 0;
-}
-
-#modalFooter.ua-hidden {
-  display: none;
-}
+<script src="script.js"></script>
+</body>
+</html>

@@ -8,7 +8,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Lentidão FTTH - Externo",
@@ -19,7 +19,7 @@
     "etiqueta_externo": "Lentidão",
     "servico": "Reparo Rápido",
     "infra": "Geral",
-    "prioridade": 2
+    "prioridade": 1
   },
   {
     "titulo": "Lentidão FTTH - Ficou testando",
@@ -30,7 +30,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Lentidão FTTH- Recorrente",
@@ -41,7 +41,7 @@
     "etiqueta_externo": "Lentidão",
     "servico": "Reparo Rápido",
     "infra": "Geral",
-    "prioridade": 2
+    "prioridade": 1
   },
   {
     "titulo": "Quedas de conexão FTTH - Resolvido",
@@ -52,7 +52,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Quedas de conexão FTTH - Externo",
@@ -63,7 +63,7 @@
     "etiqueta_externo": "Lentidão",
     "servico": "Reparo Rápido",
     "infra": "Geral",
-    "prioridade": 2
+    "prioridade": 1
   },
   {
     "titulo": "Quedas de conexão FTTH - Ficou testando",
@@ -74,7 +74,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Quedas de conexão FTTH - Recorrente",
@@ -85,7 +85,7 @@
     "etiqueta_externo": "Lentidão",
     "servico": "Reparo Rápido",
     "infra": "Geral",
-    "prioridade": 2
+    "prioridade": 1
   },
   {
     "titulo": "Sem gerência - Resolvido",
@@ -96,7 +96,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Sem gerência - Externo",
@@ -107,7 +107,7 @@
     "etiqueta_externo": "Sem acesso TP-LINK",
     "servico": "Reparo Rápido",
     "infra": "Geral",
-    "prioridade": 2
+    "prioridade": 1
   },
   {
     "titulo": "Sem conexão - Resolvido",
@@ -118,7 +118,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Sem conexão - Externo",
@@ -140,7 +140,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Sinal irregular - Externo",
@@ -151,7 +151,7 @@
     "etiqueta_externo": "Sinal Irregular Fibra",
     "servico": "Reparo Físico",
     "infra": "Geral",
-    "prioridade": 2
+    "prioridade": 1
   },
   {
     "titulo": "Rota com sinal irregular",
@@ -162,7 +162,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Rede sumiu - Resolvido",
@@ -173,7 +173,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Rede sumiu - Externo",
@@ -184,7 +184,7 @@
     "etiqueta_externo": "Sem acesso",
     "servico": "Reparo Rápido",
     "infra": "Geral",
-    "prioridade": 2
+    "prioridade": 1
   },
   {
     "titulo": "Ping alto em jogos na rede cabeada - Resolvido",
@@ -195,7 +195,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Ping alto em jogos na rede cabeada - externo",
@@ -206,7 +206,7 @@
     "etiqueta_externo": "Perda de pacotes",
     "servico": "Reparo Rápido",
     "infra": "Geral",
-    "prioridade": 2
+    "prioridade": 1
   },
   {
     "titulo": "ping alto em jogos na rede cabeada - Ficou testando",
@@ -217,7 +217,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Ping alto em jogos na rede cabeada - Recorrente",
@@ -228,7 +228,7 @@
     "etiqueta_externo": "Perda de pacotes",
     "servico": "Reparo Rápido",
     "infra": "Geral",
-    "prioridade": 2
+    "prioridade": 0
   },
   {
     "titulo": "Ping alto em jogos na rede cabeada - Remoto",
@@ -239,7 +239,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Alteração de senha aleatória - Resolvido",
@@ -250,7 +250,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Alteração de senha personalizada - Resolvido",
@@ -261,7 +261,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Alteração de senha - Inativo",
@@ -272,7 +272,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Plano no cabo - Resolvido",
@@ -283,7 +283,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Plano no cabo - Externo",
@@ -294,7 +294,7 @@
     "etiqueta_externo": "Plano não chega o contratado",
     "servico": "Reparo Rápido",
     "infra": "Geral",
-    "prioridade": 2
+    "prioridade": 1
   },
   {
     "titulo": "Plano no cabo - Ficou testando",
@@ -305,7 +305,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Cabo de rede CAT5",
@@ -316,7 +316,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Placa de rede FE",
@@ -327,7 +327,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Externo para confirmar entrega do plano",
@@ -338,7 +338,7 @@
     "etiqueta_externo": "Plano não chega o contratado",
     "servico": "Reparo Rápido",
     "infra": "Geral",
-    "prioridade": 2
+    "prioridade": 1
   },
   {
     "titulo": "Plano no wi-fi - Resolvido",
@@ -349,7 +349,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Plano no wi-fi - Externo",
@@ -360,7 +360,7 @@
     "etiqueta_externo": "Plano não chega o contratado",
     "servico": "Reparo Rápido",
     "infra": "Geral",
-    "prioridade": 2
+    "prioridade": 1
   },
   {
     "titulo": "Plano no wi-fi - Ficou testando",
@@ -371,7 +371,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Suspeita de LOS",
@@ -382,7 +382,7 @@
     "etiqueta_externo": "Suspeita de LOS (reparo fisico)",
     "Servico": "Reparo Físico",
     "infra": "Geral",
-    "prioridade": 2
+    "prioridade": 1
   },
   {
     "titulo": "Suspeita de LOS com valor",
@@ -393,7 +393,7 @@
     "etiqueta_externo": "Suspeita de LOS (reparo fisico)",
     "Servico": "Reparo Físico",
     "infra": "Geral",
-    "prioridade": 3
+    "prioridade": 2
   },
   {
     "titulo": "Rota inoperante",
@@ -404,7 +404,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Desconto de sem acesso",
@@ -415,7 +415,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "OLT em manutenção",
@@ -426,7 +426,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "PON piscando - Resolvido",
@@ -437,7 +437,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "PON piscando - Externo",
@@ -448,7 +448,7 @@
     "etiqueta_externo": "PON Piscando",
     "servico": "Reparo Físico",
     "infra": "Geral",
-    "prioridade": 2
+    "prioridade": 1
   },
   {
     "titulo": "PON piscando - GPON",
@@ -459,7 +459,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "PON apagada - Resolvido",
@@ -470,7 +470,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "PON apagada - Externo",
@@ -481,7 +481,7 @@
     "etiqueta_externo": "Pon apagada",
     "servico": "Reparo Rápido",
     "infra": "Geral",
-    "prioridade": 2
+    "prioridade": 1
   },
   {
     "titulo": "Fibra rompida",
@@ -492,7 +492,7 @@
     "etiqueta_externo": "Cabo da Fibra Rompido",
     "servico": "Reparo Físico",
     "infra": "Geral",
-    "prioridade": 2
+    "prioridade": 1
   },
   {
     "titulo": "Fibra rompida com valor",
@@ -503,7 +503,7 @@
     "etiqueta_externo": "Cabo da Fibra Rompido",
     "servico": "Reparo Físico",
     "infra": "Geral",
-    "prioridade": 3
+    "prioridade": 2
   },
   {
     "titulo": "Cabo de fibra baixo",
@@ -514,7 +514,7 @@
     "etiqueta_externo": "Cabo de Fibra Baixo/Remanejamento",
     "servico": "Serviço Adicional",
     "infra": "Geral",
-    "prioridade": 2
+    "prioridade": 1
   },
   {
     "titulo": "Cabo de fibra baixo com valor",
@@ -525,7 +525,7 @@
     "etiqueta_externo": "Cabo de Fibra Baixo/Remanejamento",
     "servico": "Serviço Adicional",
     "infra": "Geral",
-    "prioridade": 3
+    "prioridade": 2
   },
   {
     "titulo": "Cabo de fibra ressecado",
@@ -536,7 +536,7 @@
     "etiqueta_externo": "Cabo da Fibra Rompido",
     "servico": "Reparo Físico",
     "infra": "Geral",
-    "prioridade": 2
+    "prioridade": 1
   },
   {
     "titulo": "Remanejamento de cabo fibra",
@@ -547,7 +547,7 @@
     "etiqueta_externo": "Cabo de Fibra Baixo/Remanejamento",
     "servico": "Serviço Adicional",
     "infra": "Geral",
-    "prioridade": 2
+    "prioridade": 1
   },
   {
     "titulo": "Remanejamento de cabo fibra com valor",
@@ -558,7 +558,7 @@
     "etiqueta_externo": "Cabo de Fibra Baixo/Remanejamento",
     "servico": "Serviço Adicional",
     "infra": "Geral",
-    "prioridade": 3
+    "prioridade": 2
   },
   {
     "titulo": "Equipamento travado",
@@ -569,7 +569,7 @@
     "etiqueta_externo": "Revisão de Equipamento",
     "servico": "Reparo Rápido",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Equipamento queimado",
@@ -580,7 +580,7 @@
     "etiqueta_externo": "Revisão de Equipamento",
     "servico": "Reparo Rápido",
     "infra": "Geral",
-    "prioridade": 3
+    "prioridade": 2
   },
   {
     "titulo": "Instalação mal sucedida",
@@ -591,7 +591,7 @@
     "etiqueta_externo": "Instalação mal sucedida (sem acesso) - 7d",
     "servico": "Reparo Físico",
     "infra": "Geral",
-    "prioridade": 2
+    "prioridade": 1
   },
   {
     "titulo": "Torre Inoperante",
@@ -602,7 +602,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Conectado na porta LAN incorreta - Resolvido",
@@ -613,7 +613,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "OLT com quedas de energia",
@@ -624,7 +624,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Comando CRM",
@@ -635,7 +635,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Sistema externo indisponível",
@@ -646,7 +646,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Desconexão chat",
@@ -657,7 +657,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Desconexão chat - Telefonia",
@@ -668,7 +668,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Desconexão chat - TV",
@@ -679,7 +679,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Desconexão chat - Internet",
@@ -690,7 +690,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Transferência",
@@ -701,7 +701,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Ausência de confirmação de dados",
@@ -712,7 +712,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Já solucionando",
@@ -723,7 +723,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Já resolvido",
@@ -734,7 +734,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Procedimento somente com o titular",
@@ -745,7 +745,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Falta de cordialidade",
@@ -756,7 +756,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Cliente não está no local",
@@ -767,7 +767,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Cliente em horário de expediente",
@@ -778,7 +778,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Cliente não pode continuar devido compromisso",
@@ -789,7 +789,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Lentidão FWA - Resolvido",
@@ -800,7 +800,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Lentidão FWA - Externo",
@@ -811,7 +811,7 @@
     "etiqueta_externo": "Lentidão",
     "servico": "Reparo FWA",
     "infra": "Geral",
-    "prioridade": 2
+    "prioridade": 1
   },
   {
     "titulo": "Lentidão FWA - Ficou testando",
@@ -822,7 +822,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Lentidão FWA - Recorrente",
@@ -833,7 +833,7 @@
     "etiqueta_externo": "Lentidão",
     "servico": "Reparo FWA",
     "infra": "Geral",
-    "prioridade": 2
+    "prioridade": 1
   },
   {
     "titulo": "Quedas de conexão FWA - Resolvido",
@@ -844,7 +844,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Quedas de conexão FWA - Externo",
@@ -855,7 +855,7 @@
     "etiqueta_externo": "Lentidão",
     "servico": "Reparo FWA",
     "infra": "Geral",
-    "prioridade": 2
+    "prioridade": 1
   },
   {
     "titulo": "Quedas de conexão FWA - Ficou testando",
@@ -866,7 +866,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Quedas de conexão FWA - Recorrente",
@@ -877,7 +877,7 @@
     "etiqueta_externo": "Lentidão",
     "servico": "Reparo FWA",
     "infra": "Geral",
-    "prioridade": 2
+    "prioridade": 1
   },
   {
     "titulo": "Alteração de Cômodo",
@@ -910,7 +910,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Não Realiza/Recebe Ligações - Externo",
@@ -921,7 +921,7 @@
     "etiqueta_externo": "Problemas com o Telefone Fixo",
     "servico": "Reparo Rápido",
     "infra": "Geral",
-    "prioridade": 2
+    "prioridade": 1
   },
   {
     "titulo": "Hibernação Chat",
@@ -932,7 +932,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Alteracão de equipamento no mesmo cômodo",
@@ -954,7 +954,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Conecta+",
@@ -976,7 +976,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Erro de NTP - TV",
@@ -987,7 +987,7 @@
     "etiqueta_externo": "Erro de NTP",
     "servico": "Reparo Rápido",
     "infra": "Geral",
-    "prioridade": 2
+    "prioridade": 1
   },
   {
     "titulo": "Telefone mudo - Resolvido",
@@ -998,7 +998,7 @@
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Telefone mudo - Externo",
@@ -1009,6 +1009,6 @@
     "etiqueta_externo": "Telefone mudo",
     "servico": "Reparo Rápido",
     "infra": "Geral",
-    "prioridade": 2
+    "prioridade": 1
   }
 ]

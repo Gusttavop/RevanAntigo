@@ -1,5 +1,16 @@
 [
   {
+    "titulo": "Hibernação Chat",
+    "mensagem": "fez contato e durante o atendimento ficou inativo, resultando no encerramento automático devido à falta de atividade, entrando em hibernação.",
+    "externo": false,
+    "aguardar": false,
+    "etiqueta": "Hibernação chat",
+    "etiqueta_externo": "",
+    "servico": "",
+    "infra": "Geral",
+    "prioridade": 0
+  },
+  {
     "titulo": "Lentidão FTTH - Resolvido",
     "mensagem": "fez contato para relatar lentidão em sua conexão. Após verificar as informações junto ao cliente, constatou-se que o problema ocorria tanto nas proximidades quanto em locais mais distantes do roteador/modem.  Foram executados os procedimentos padrões conforme documentados nos registros de eventos, e solicitados alguns procedimentos manuais usuais. O cliente informou que o acesso foi normalizado.",
     "externo": false,
@@ -715,19 +726,8 @@
     "prioridade": 0
   },
   {
-    "titulo": "Já solucionando",
-    "mensagem": "comunica que no início do atendimento a questão já foi solucionada, tornando desnecessária a continuação do suporte.",
-    "externo": false,
-    "aguardar": false,
-    "etiqueta": "Solicitação de dados",
-    "etiqueta_externo": "",
-    "servico": "",
-    "infra": "Geral",
-    "prioridade": 0
-  },
-  {
     "titulo": "Já resolvido",
-    "mensagem": "informa que a problemática já foi resolvida, sendo desnecessário a qualquer suporte.",
+    "mensagem": "comunica que no início do atendimento a questão já foi solucionada, tornando desnecessária a continuação do suporte.",
     "externo": false,
     "aguardar": false,
     "etiqueta": "Solicitação de dados",
@@ -922,17 +922,6 @@
     "servico": "Reparo Rápido",
     "infra": "Geral",
     "prioridade": 1
-  },
-  {
-    "titulo": "Hibernação Chat",
-    "mensagem": "fez contato e durante o atendimento ficou inativo, resultando no encerramento automático devido à falta de atividade, entrando em hibernação.",
-    "externo": false,
-    "aguardar": false,
-    "etiqueta": "Hibernação chat",
-    "etiqueta_externo": "",
-    "servico": "",
-    "infra": "Geral",
-    "prioridade": 0
   },
   {
     "titulo": "Alteracão de equipamento no mesmo cômodo",

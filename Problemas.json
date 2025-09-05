@@ -380,7 +380,7 @@
     "aguardar": false,
     "etiqueta": "Suspeita de LOS",
     "etiqueta_externo": "LOS",
-    "servico": "reparo físico",
+    "servico": "Reparo Físico",
     "infra": "Geral",
     "prioridade": 1
   },
@@ -390,7 +390,7 @@
     "externo": true,
     "aguardar": true,
     "etiqueta": "Suspeita de LOS",
-    "etiqueta_externo": "Suspeita de LOS (reparo fisico)",
+    "etiqueta_externo": "LOS",
     "Servico": "Reparo Físico",
     "infra": "Geral",
     "prioridade": 2
@@ -979,15 +979,15 @@
     "prioridade": 0
   },
   {
-    "titulo": "Erro de NTP - TV",
-    "mensagem": "entrou em contato informando que a TV Brisanet está sem serviço, apresentando erro NTP. Os cabos foram conferidos e estão corretos. O cliente foi orientado a realizar os procedimentos de NTP e, em seguida, a ONU foi reconfigurada, porém o problema persistiu. Será aberta O.S para verificação técnica no local.",
-    "externo": true,
+    "titulo": "Erro de NTP - Resolvido",
+    "mensagem": "entrou em contato informando que a TV Brisanet está sem serviço, apresentando erro NTP. Os cabos foram conferidos e estão corretos. O cliente foi orientado a realizar os procedimentos de NTP e, em seguida, a ONU foi reconfigurada. Após os procedimentos, a TV voltou à normalidade.",
+    "externo": false,
     "aguardar": false,
     "etiqueta": "Erro de NTP",
-    "etiqueta_externo": "Erro de NTP",
-    "servico": "Reparo Rápido",
+    "etiqueta_externo": "",
+    "servico": "",
     "infra": "Geral",
-    "prioridade": 1
+    "prioridade": 0
   },
   {
     "titulo": "Telefone mudo - Resolvido",
@@ -1007,6 +1007,17 @@
     "aguardar": false,
     "etiqueta": "Telefone mudo",
     "etiqueta_externo": "Telefone mudo",
+    "servico": "Reparo Rápido",
+    "infra": "Geral",
+    "prioridade": 1
+  },
+  {
+    "titulo": "Erro de NTP - Externo",
+    "mensagem": "entrou em contato informando que a TV Brisanet está sem serviço, apresentando erro NTP. Os cabos foram conferidos e estão corretos. O cliente foi orientado a realizar os procedimentos de NTP e, em seguida, a ONU foi reconfigurada, porém o problema persistiu. Será aberta O.S para verificação técnica no local.",
+    "externo": true,
+    "aguardar": false,
+    "etiqueta": "Erro de NTP",
+    "etiqueta_externo": "Erro de NTP",
     "servico": "Reparo Rápido",
     "infra": "Geral",
     "prioridade": 1

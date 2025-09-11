@@ -884,8 +884,8 @@
     "mensagem": "fez o contato solicitando a alteração de cômodo do equipamento. Foi informado sobre a taxa de R$30,00 e valores adicionais de cabo, sendo R$1,30 por metro de cabo de rede e R$0,60 por metro de cabo de fibra, caso necessário. Cliente confirma solicitação. Foi aberta O.S. para agendamento de visita técnica.",
     "externo": true,
     "aguardar": true,
-    "etiqueta": "Alteração de cõmodo",
-    "etiqueta_externo": "Alteração de cõmodo",
+    "etiqueta": "Alteração de cômodo",
+    "etiqueta_externo": "Alteração de cômodo",
     "servico": "Serviço Adicional",
     "infra": "Geral",
     "prioridade": 2

@@ -165,11 +165,11 @@
     "prioridade": 1
   },
   {
-    "titulo": "Rota com sinal irregular",
-    "mensagem": " relata interrupção do serviço de acesso à internet. Após análise, constatou-se anomalia no sinal da PON. A rota foi verificada e apresenta falhas. O cliente foi informado sobre o prazo de 24 horas para a resolução do problema, que está relacionado à rota.",
+    "titulo": "Rota inoperante",
+    "mensagem": "fez contato para relatar a ausência de acesso. Foi explicado a ele que, naquele momento, a falta de acesso se deve a um rompimento de cabo de fibra que impactou toda a sua rota. Foi fornecido o prazo estimado pela URA para a regularização da situação. O cliente foi informado e está ciente dos detalhes.",
     "externo": false,
     "aguardar": false,
-    "etiqueta": "Rota com sinal irregular - FTTH",
+    "etiqueta": "Rota Inoperante - FTTH",
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
@@ -407,11 +407,11 @@
     "prioridade": 2
   },
   {
-    "titulo": "Rota inoperante",
-    "mensagem": "fez contato para relatar a ausência de acesso. Foi explicado a ele que, naquele momento, a falta de acesso se deve a um rompimento de cabo de fibra que impactou toda a sua rota. Foi fornecido o prazo estimado pela URA para a regularização da situação. O cliente foi informado e está ciente dos detalhes.",
+    "titulo": "Rota com sinal irregular",
+    "mensagem": " relata interrupção do serviço de acesso à internet. Após análise, constatou-se anomalia no sinal da PON. A rota foi verificada e apresenta falhas. O cliente foi informado sobre o prazo de 24 horas para a resolução do problema, que está relacionado à rota.",
     "externo": false,
     "aguardar": false,
-    "etiqueta": "Rota Inoperante - FTTH",
+    "etiqueta": "Rota com sinal irregular - FTTH",
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",

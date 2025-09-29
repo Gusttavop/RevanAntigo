@@ -413,7 +413,7 @@
     "aguardar": true,
     "etiqueta": "Suspeita de LOS",
     "etiqueta_externo": "LOS",
-    "Servico": "Reparo Físico",
+    "servico": "Reparo Físico",
     "infra": "Geral",
     "prioridade": 2
   },

@@ -1012,6 +1012,17 @@
     "prioridade": 1
   },
   {
+    "titulo": "Problema em telefone Fale Mais Fit SA",
+    "mensagem": "fez o contato informando que o telefone fixo não está funcionando ao tentar realizar e receber ligações. Foram realizadas as verificações internas, porém sem êxito, sendo identificado que a linha está registrada normalmente em sistema, o que indica possível falha no aparelho utilizado. Cliente foi orientado sobre as condições do plano Fale Mais Fit SA, que não inclui o aparelho, sendo este de responsabilidade do cliente.",
+    "externo": false,
+    "aguardar": false,
+    "etiqueta": "Problemas com o Telefone Fixo",
+    "etiqueta_externo": "",
+    "servico": "",
+    "infra": "Geral",
+    "prioridade": 0
+  },
+  {
     "titulo": "CPE sem sinal - FWA",
     "mensagem": "fez o contato informando falta de acesso em sua conexão. Foi orientado a reiniciar a CPE manualmente e remover o chip, porém sem êxito. Como a torre está operante, será aberta O.S. para que a equipe realize a verificação do serviço.",
     "externo": true,

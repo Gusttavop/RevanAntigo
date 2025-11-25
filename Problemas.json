@@ -1012,6 +1012,28 @@
     "prioridade": 1
   },
   {
+    "titulo": "CPE sem sinal - FWA",
+    "mensagem": "fez o contato informando falta de acesso em sua conexão. Foi orientado a reiniciar a CPE manualmente e remover o chip, porém sem êxito. Como a torre está operante, será aberta O.S. para que a equipe realize a verificação do serviço.",
+    "externo": true,
+    "aguardar": false,
+    "etiqueta": "CPE sem sinal",
+    "etiqueta_externo": "CPE sem sinal",
+    "servico": "Reparo Rápido",
+    "infra": "Geral",
+    "prioridade": 1
+  },
+  {
+    "titulo": "Sinal da CPE irregular - FWA",
+    "mensagem": "fez o contato informando lentidão na conexão. Após verificação, foi identificado que o sinal da CPE está irregular. Será aberta O.S. para que a equipe realize o reparo..",
+    "externo": true,
+    "aguardar": false,
+    "etiqueta": "Sinal da CPE irregular",
+    "etiqueta_externo": "Sinal da CPE irregular",
+    "servico": "Reparo Rápido",
+    "infra": "Geral",
+    "prioridade": 1
+  },
+  {
     "titulo": "Erro de NTP - Externo",
     "mensagem": "entrou em contato informando que a TV Brisanet está sem serviço, apresentando erro NTP. Os cabos foram conferidos e estão corretos. O cliente foi orientado a realizar os procedimentos de NTP e, em seguida, a ONU foi reconfigurada, porém o problema persistiu. Será aberta O.S para verificação técnica no local.",
     "externo": true,

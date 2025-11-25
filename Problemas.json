@@ -66,6 +66,17 @@
     "prioridade": 1
   },
   {
+    "titulo": "ONU 2.4",
+    "mensagem": "fez o contato informando instabilidade em sua internet. Foi verificado que o equipamento instalado é a ONU 2.4. Foi ofertada a instalação de um roteador TP-Link para a melhoria da qualidade do Wi-Fi. Cliente concorda com a instalação. Será aberta O.S. para que a equipe realize a instalação. ",
+    "externo": true,
+    "aguardar": false,
+    "etiqueta": "Instalação de Roteador TP-LINK",
+    "etiqueta_externo": "Instalação de Roteador TP-LINK",
+    "servico": "Serviço Adicional",
+    "infra": "Geral",
+    "prioridade": 1
+  },
+  {
     "titulo": "Quedas de conexão FTTH - Resolvido",
     "mensagem": "fez contato para relatar quedas de acesso em sua conexão. Após verificar as informações junto ao cliente, constatou-se que o problema ocorria tanto nas proximidades quanto em locais mais distantes do roteador/modem, contudo limitava-se à rede Wi-Fi.  Foram executados os procedimentos padrões conforme documentados nos registros de eventos, e solicitados alguns procedimentos manuais usuais. O cliente informou que o acesso foi normalizado. ",
     "externo": false,

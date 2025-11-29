@@ -66,6 +66,17 @@
     "prioridade": 1
   },
   {
+    "titulo": "Orientação sobre rede unificada",
+    "mensagem": "fez o contato solicitando a separação das redes. No local há um roteador TP-Link com redes unificadas, não sendo possível realizar a separação. Informações repassadas ao cliente.",
+    "externo": false,
+    "aguardar": false,
+    "etiqueta": "Informações do Serviço",
+    "etiqueta_externo": "",
+    "servico": "",
+    "infra": "Geral",
+    "prioridade": 0
+  },
+  {
     "titulo": "ONU 2.4",
     "mensagem": "fez o contato informando instabilidade em sua internet. Foi verificado que o equipamento instalado é a ONU 2.4. Foi ofertada a instalação de um roteador TP-Link para a melhoria da qualidade do Wi-Fi. Cliente concorda com a instalação. Será aberta O.S. para que a equipe realize a instalação. ",
     "externo": true,

@@ -132,6 +132,17 @@
     "prioridade": 1
   },
   {
+    "titulo": "IPTV sem acesso",
+    "mensagem": "fez o contato informando estar com instabilidade no serviço de IPTV. Foi verificado que o aparelho utilizado é particular e, por esse motivo, não prestamos suporte para configuração ou correção desse tipo de dispositivo. Foram repassadas todas as informações necessárias e o cliente foi orientado a realizar a verificação por conta própria ou com o suporte do fabricante do equipamento.",
+    "externo": false,
+    "aguardar": false,
+    "etiqueta": "Informações do Serviço",
+    "etiqueta_externo": "",
+    "servico": "",
+    "infra": "Geral",
+    "prioridade": 0
+  },
+  {
     "titulo": "Sem gerência - Resolvido",
     "mensagem": "fez contato para comunicar a ausência de acesso. Foi verificado que a ONU apresentava sinal e o roteador não estava gerenciando a conexão. Após verificar a conexão do cabo, orientou-se o cliente a reiniciar o roteador TP-link. Paralelamente, foi efetuada uma reconfiguração remota e guiado. Com base na realização desses passos, foi possível restabelecer o acesso.",
     "externo": false,

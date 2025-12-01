@@ -132,6 +132,17 @@
     "prioridade": 1
   },
   {
+    "titulo": "Troca de controle STB",
+    "mensagem": "fez contato informando falha no controle remoto do receptor. Foi informado que será enviada uma equipe técnica para realizar a revisão física do controle. Cliente ciente de que, caso seja identificado mau uso, será aplicada taxa de R$26,00 na fatura, e que, não sendo constatado dano, a troca será efetuada sem custo.",
+    "externo": true,
+    "aguardar": true,
+    "etiqueta": "Troca de Controle",
+    "etiqueta_externo": "Troca de Controle",
+    "servico": "Reparo Rápido",
+    "infra": "Geral",
+    "prioridade": 2
+  },
+  {
     "titulo": "IPTV sem acesso",
     "mensagem": "fez o contato informando estar com instabilidade no serviço de IPTV. Foi verificado que o aparelho utilizado é particular e, por esse motivo, não prestamos suporte para configuração ou correção desse tipo de dispositivo. Foram repassadas todas as informações necessárias e o cliente foi orientado a realizar a verificação por conta própria ou com o suporte do fabricante do equipamento.",
     "externo": false,

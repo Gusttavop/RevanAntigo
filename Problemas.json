@@ -1062,7 +1062,7 @@
     "aguardar": false,
     "etiqueta": "CPE sem sinal",
     "etiqueta_externo": "CPE sem sinal",
-    "servico": "Reparo Rápido",
+    "servico": "Reparo FWA",
     "infra": "Geral",
     "prioridade": 1
   },
@@ -1073,7 +1073,7 @@
     "aguardar": false,
     "etiqueta": "Sinal da CPE irregular",
     "etiqueta_externo": "Sinal da CPE irregular",
-    "servico": "Reparo Rápido",
+    "servico": "Reparo FWA",
     "infra": "Geral",
     "prioridade": 1
   },

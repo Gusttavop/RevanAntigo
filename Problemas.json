@@ -231,6 +231,17 @@
     "prioridade": 0
   },
   {
+    "titulo": "Rota inoperante - Área de risco",
+    "mensagem": "fez o contato informando ausência de acesso. Foi informado que a indisponibilidade ocorre devido a rompimento de cabo de fibra óptica que impacta toda a rota do cliente. No momento, não há previsão de normalização em razão de se tratar de área de risco. Cliente orientado e informado sobre a possibilidade de pausa temporária na assinatura.",
+    "externo": false,
+    "aguardar": false,
+    "etiqueta": "Rota Inoperante - FTTH",
+    "etiqueta_externo": "",
+    "servico": "",
+    "infra": "Geral",
+    "prioridade": 1
+  },
+  {
     "titulo": "Rede sumiu - Resolvido",
     "mensagem": "relatou que estava sem conexão com a internet e que o nome da rede Wi-Fi não estava aparecendo. Após realizar algumas alterações na configuração da rede, a conexão foi restabelecida com o nome e senha originais. O usuário confirmou que a internet voltou a funcionar corretamente.",
     "externo": false,

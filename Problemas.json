@@ -77,6 +77,17 @@
     "prioridade": 0
   },
   {
+    "titulo": "Cobrança de reparo",
+    "mensagem": "fez o contato solicitando agilidade na visita técnica já agendada. As informações necessárias e o prazo do agendamento foram repassados. Cliente ciente das informações.",
+    "externo": false,
+    "aguardar": false,
+    "etiqueta": "COBRANÇA DE REPARO DENTRO DO PRAZO",
+    "etiqueta_externo": "",
+    "servico": "",
+    "infra": "Geral",
+    "prioridade": 0
+  },
+  {
     "titulo": "ONU 2.4",
     "mensagem": "fez o contato informando instabilidade em sua internet. Foi verificado que o equipamento instalado é a ONU 2.4. Foi ofertada a instalação de um roteador TP-Link para a melhoria da qualidade do Wi-Fi. Cliente concorda com a instalação. Será aberta O.S. para que a equipe realize a instalação. ",
     "externo": true,

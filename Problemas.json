@@ -22,6 +22,17 @@
     "prioridade": 0
   },
   {
+    "titulo": "Equipamento desligado no botão POWER",
+    "mensagem": "fez o contato informando estar sem acesso, com os equipamentos apagados. Foi solicitado vídeo e identificado que o equipamento estava desligado no botão power. Após orientar o cliente a ligar o equipamento, o acesso foi restabelecido e normalizado após testes.",
+    "externo": false,
+    "aguardar": false,
+    "etiqueta": "Equipamento desligado no botao POWER - FTTH",
+    "etiqueta_externo": "",
+    "servico": "",
+    "infra": "Geral",
+    "prioridade": 0
+  },
+  {
     "titulo": "Lentidão FTTH - Resolvido",
     "mensagem": "fez contato para relatar lentidão em sua conexão. Após verificar as informações junto ao cliente, constatou-se que o problema ocorria tanto nas proximidades quanto em locais mais distantes do roteador/modem.  Foram executados os procedimentos padrões conforme documentados nos registros de eventos, e solicitados alguns procedimentos manuais usuais. O cliente informou que o acesso foi normalizado.",
     "externo": false,

@@ -1049,7 +1049,7 @@
     "mensagem": "entrou em contato informando estar sem acesso ao serviço, mesmo após o pagamento da fatura. Esclarecemos que a regularização do acesso pode levar até 24 horas após a confirmação do pagamento. O cliente foi informado e está ciente dos detalhes.",
     "externo": false,
     "aguardar": false,
-    "etiqueta": "Inadimplência Financeira",
+    "etiqueta": "Serviço não reativado após pagamento",
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",

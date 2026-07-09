@@ -11,11 +11,11 @@
     "prioridade": 0
   },
   {
-    "titulo": "Desconexão chat",
+    "titulo": "Inatividade chat",
     "mensagem": "fez contato e durante o atendimento ficou inativo, resultando no encerramento automático devido à falta de atividade.",
     "externo": false,
     "aguardar": false,
-    "etiqueta": "Desconexão chat",
+    "etiqueta": "Inatividade Chat",
     "etiqueta_externo": "",
     "servico": "",
     "infra": "Geral",
